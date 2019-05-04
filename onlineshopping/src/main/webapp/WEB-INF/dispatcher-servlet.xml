@@ -8,6 +8,7 @@
      http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
    
    <context:component-scan base-package="net.kzn.onlineshopping.controller" />
+     <context:component-scan base-package="net.kzn.shoppingbackend.daoImpl" />
    
    
    <!-- Loading static resources -->
